@@ -7,8 +7,10 @@
         "esModuleInterop": true,
         "target": "ESNext",
         "module": "esnext",
-        "moduleResolution": "bundler",
-        "strictNullChecks": true
+				"moduleResolution": "bundler",
+				"strictNullChecks": true,
+				"resolveJsonModule": true,
+        "types": ["jest"]
     },
     "include": ["src", "types"]
 }
