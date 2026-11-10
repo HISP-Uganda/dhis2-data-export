@@ -47,7 +47,7 @@ importers:
     devDependencies:
       '@dhis2/cli-app-scripts':
         specifier: 12.11.0-alpha.1
-        version: 12.11.0-alpha.1(@types/babel__core@7.20.5)(@types/node@26.6.6)(bare-buffer@3.7.1)(postcss@8.5.32)(react@18.3.1)(terser@5.51.2)(type-fest@0.21.3)(typescript@5.9.3)
+        version: 12.11.0-alpha.1(@types/babel__core@7.20.5)(@types/node@26.6.6)(bare-buffer@3.7.1)(postcss@8.5.32)(react@18.3.1)(terser@5.51.2)(type-fest@0.21.3)(typescript@6.0.3)
       '@types/file-saver':
         specifier: ^2.0.7
         version: 2.0.7
@@ -64,8 +64,8 @@ importers:
         specifier: ^19.3.0
         version: 19.3.0(@types/react@19.3.0)
       typescript:
-        specifier: ^5.9.3
-        version: 5.9.3
+        specifier: 6.0.3
+        version: 6.0.3
 
 packages:
 
@@ -5434,8 +5434,8 @@ packages:
   typeface-roboto@0.0.75:
     resolution: {integrity: sha512-VrR/IiH00Z1tFP4vDGfwZ1esNqTiDMchBEXYY9kilT6wRGgFoCAlgkEUMHb1E3mB0FsfZhv756IF0+R+SFPfdg==}
 
-  typescript@5.9.3:
-    resolution: {integrity: sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==}
+  typescript@6.0.3:
+    resolution: {integrity: sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -7403,7 +7403,7 @@ snapshots:
       - '@babel/core'
       - react-native
 
-  '@dhis2/cli-app-scripts@12.11.0-alpha.1(@types/babel__core@7.20.5)(@types/node@26.6.6)(bare-buffer@3.7.1)(postcss@8.5.32)(react@18.3.1)(terser@5.51.2)(type-fest@0.21.3)(typescript@5.9.3)':
+  '@dhis2/cli-app-scripts@12.11.0-alpha.1(@types/babel__core@7.20.5)(@types/node@26.6.6)(bare-buffer@3.7.1)(postcss@8.5.32)(react@18.3.1)(terser@5.51.2)(type-fest@0.21.3)(typescript@6.0.3)':
     dependencies:
       '@babel/core': 7.29.13
       '@babel/plugin-syntax-dynamic-import': 7.8.3(@babel/core@7.29.13)
@@ -7440,7 +7440,7 @@ snapshots:
       html-webpack-plugin: 5.6.8(webpack@5.112.2(postcss@8.5.32))
       http-proxy: 1.18.1
       i18next-conv: 9.2.1
-      i18next-scanner: 3.3.0(typescript@5.9.3)
+      i18next-scanner: 3.3.0(typescript@6.0.3)
       inquirer: 7.3.3
       lodash: 4.18.1
       mini-css-extract-plugin: 2.10.2(webpack@5.112.2(postcss@8.5.32))
@@ -10266,7 +10266,7 @@ snapshots:
       mkdirp: 0.5.6
       node-gettext: 2.1.0
 
-  i18next-scanner@3.3.0(typescript@5.9.3):
+  i18next-scanner@3.3.0(typescript@6.0.3):
     dependencies:
       acorn: 8.19.0
       acorn-dynamic-import: 4.0.0(acorn@8.19.0)
@@ -10281,7 +10281,7 @@ snapshots:
       eol: 0.9.1
       esprima-next: 5.8.4
       gulp-sort: 2.0.0
-      i18next: 27.0.1(typescript@5.9.3)
+      i18next: 27.0.1(typescript@6.0.3)
       lodash: 4.18.1
       parse5: 6.0.1
       sortobject: 4.17.0
@@ -10293,9 +10293,9 @@ snapshots:
 
   i18next@10.6.0: {}
 
-  i18next@27.0.1(typescript@5.9.3):
+  i18next@27.0.1(typescript@6.0.3):
     optionalDependencies:
-      typescript: 5.9.3
+      typescript: 6.0.3
 
   iconv-lite@0.4.24:
     dependencies:
@@ -12346,7 +12346,7 @@ snapshots:
 
   typeface-roboto@0.0.75: {}
 
-  typescript@5.9.3: {}
+  typescript@6.0.3: {}
 
   uglify-js@3.19.3:
     optional: true

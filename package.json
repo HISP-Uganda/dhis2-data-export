@@ -7,7 +7,7 @@
   "packageManager": "pnpm@10.13.1",
   "scripts": {
     "build": "d2-app-scripts build",
-    "start": "d2-app-scripts start --proxy https://hmis.health.go.ug",
+    "start": "d2-app-scripts start --proxy https://hmis-analytics.health.go.ug/hmis",
     "test": "d2-app-scripts test",
     "deploy": "d2-app-scripts deploy"
   },
@@ -32,6 +32,6 @@
     "@types/lodash": "^4.17.27",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
-    "typescript": "^5.9.3"
+    "typescript": "6.0.3"
   }
 }
